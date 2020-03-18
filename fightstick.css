@@ -5,6 +5,14 @@
     width: 450px;
 }
 
+.fight-stick.disconnected {
+    background: url(stick-assets/disconnected.svgz) no-repeat;
+}
+
+.fight-stick.disconnected div {
+    display: none;
+}
+
 .fight-stick .triggers {
     width: 149px;
     height: 74px;
