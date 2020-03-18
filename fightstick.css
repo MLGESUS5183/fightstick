@@ -1,6 +1,6 @@
 /*BEGIN Fight Stick Controller Styling*/
 .controller.fight-stick {
-    background: https://github.com/MLGESUS5183/fightstick/master/assets/base.png center no-repeat;
+    background: https://github.com/MLGESUS5183/fightstick/blob/master/assets/base.png center no-repeat;
     height: 150px;
     width: 450px;
 }
@@ -118,7 +118,7 @@
     height: 150px;
     top: 0px;
     left: 0px;
-    background: https://github.com/MLGESUS5183/fightstick/master/assets/stick.png;
+    background: https://github.com/MLGESUS5183/fightstick/blob/master/assets/stick.png;
 }
 
 .fight-stick .fstick.up {
