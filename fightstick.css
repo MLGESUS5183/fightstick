@@ -5,6 +5,13 @@
     width: 450px;
 }
 
+.custom.disconnected { /* This class shows an image when the controller is disconnected */
+    background: url('https://github.com/MLGESUS5183/fightstick/blob/master/assets/base.png');
+}
+/* This hides the controller's button when disconnected so only the background image remains */ 
+.custom.disconnected div {
+    display: none;
+}
 .custom .triggers {
     width: 149px;
     height: 74px;
