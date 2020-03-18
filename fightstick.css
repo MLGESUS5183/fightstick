@@ -1,11 +1,11 @@
 /*BEGIN Fight Stick Controller Styling*/
-.controller.fight-stick {
+.controller.custom {
     background-image: url('https://github.com/MLGESUS5183/fightstick/blob/master/assets/base.png') center no-repeat;
     height: 150px;
     width: 450px;
 }
 
-.fight-stick .triggers {
+.custom .triggers {
     width: 149px;
     height: 74px;
     position: absolute;
@@ -13,7 +13,7 @@
     bottom: 0px;
 }
 
-.fight-stick .trigger-button {
+.custom .trigger-button {
     width: 74px;
     height: 74px;
     background: #4c4c4c;
@@ -22,22 +22,22 @@
     display: block;
 }
 
-.fight-stick .trigger-button.pressed {
+.custom .trigger-button.pressed {
     -webkit-filter: invert(1);
 }
 
-.fight-stick .trigger-button.left {
+.custom .trigger-button.left {
     position: absolute;
     float: right;
     bottom: 0px;
     right: 0px;
 }
 
-.fight-stick .trigger-button.right {
+.custom .trigger-button.right {
     float: left;
 }
 
-.fight-stick .bumpers {
+.custom .bumpers {
     width: 149px;
     height: 74px;
     position: absolute;
@@ -45,7 +45,7 @@
     top: 0px;
 }
 
-.fight-stick .bumper {
+.custom .bumper {
     width: 74px;
     height: 74px;
     background: #4c4c4c;
@@ -54,22 +54,22 @@
     display: block;
 }
 
-.fight-stick .bumper.pressed {
+.custom .bumper.pressed {
     -webkit-filter: invert(1);
 }
 
-.fight-stick .bumper.left {
+.custom .bumper.left {
     position: absolute;
     float: right;
     bottom: 0px;
     right: 0px;
 }
 
-.fight-stick .bumper.right {
+.custom .bumper.right {
     float: left;
 }
 
-.fight-stick .abxy {
+.custom .abxy {
     position: absolute;
     width: 149px;
     height: 150px;
@@ -77,7 +77,7 @@
     left: 151px;
 }
 
-.fight-stick .button {
+.custom .button {
     width: 74px;
     height: 74px;
     background: #4c4c4c;
@@ -87,32 +87,32 @@
     position: absolute;
 }
 
-.fight-stick .button.pressed {
+.custom .button.pressed {
     transform: translateY(5px);
     -webkit-filter: invert(1);
 }
 
-.fight-stick .a {
+.custom .a {
     bottom: 0px;
     left: 0px;
 }
 
-.fight-stick .b {
+.custom .b {
     bottom: 0px;
     right: 0px;
 }
 
-.fight-stick .x {
+.custom .x {
     top: 0px;
     left: 0px
 }
 
-.fight-stick .y {
+.custom .y {
     right: 0px;
     top: 0px;
 }
 
-.fight-stick .fstick {
+.custom .fstick {
     position: absolute;
     width: 150px;
     height: 150px;
@@ -121,38 +121,38 @@
     background-image: url('https://github.com/MLGESUS5183/fightstick/blob/master/assets/stick.png');
 }
 
-.fight-stick .fstick.up {
+.custom .fstick.up {
     background-position-y: -50px;
 }
 
-.fight-stick .fstick.down {
+.custom .fstick.down {
     background-position-y: +50px;
 }
 
-.fight-stick .fstick.left {
+.custom .fstick.left {
     background-position-x: +50px;
 }
 
-.fight-stick .fstick.right {
+.custom .fstick.right {
     background-position-x: -50px;
 }
 
-.fight-stick .fstick.up.right {
+.custom .fstick.up.right {
     background-position-x: -50px;
     background-position-y: -50px;
 }
 
-.fight-stick .fstick.up.left {
+.custom .fstick.up.left {
     background-position-x: +50px;
     background-position-y: -50px;
 }
 
-.fight-stick .fstick.down.right {
+.custom .fstick.down.right {
     background-position-x: -50px;
     background-position-y: +50px;
 }
 
-.fight-stick .fstick.down.left {
+.custom .fstick.down.left {
     background-position-x: +50px;
     background-position-y: +50px;
 }
